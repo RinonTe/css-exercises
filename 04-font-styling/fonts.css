@@ -1,0 +1,81 @@
+.exemple h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-block-end: 1em;
+}
+.exemple h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+}
+
+.exemple h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+}
+
+.exemple h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-block-end: 1;
+}
+
+.exemple h5 {
+  font-size: rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+}
+
+.exemple h6 {
+  font-size: rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+  font-variant-ligatures: small-caps;
+}
+
+.exemple p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-block-end: 1em;
+
+}
+
+.intro {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-block-end: 1em;
+  letter-spacing: 0.1em;
+}
+
+small {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-block-end: 1em;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-block-end: 1em;
+}
+
+
+#section_sans_serif {
+  font-family: sans-serif;
+}
+#section_serif {
+  font-family: serif;
+}
+#section_monospace {
+  font-family: monospace;
+}
+
+#section_fantasy {
+  font-family: fantasy;
+}
+#section_cursive {
+  font-family: cursive;
+}
+
+
+
