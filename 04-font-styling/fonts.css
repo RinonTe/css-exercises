@@ -1,40 +1,40 @@
-.exemple h1 {
+.example h1 {
   font-size: 2.5rem;
   font-weight: 800;
   margin-block-end: 1em;
 }
-.exemple h2 {
+.example h2 {
   font-size: 2rem;
   font-weight: 700;
   margin-block-end: 1em;
 }
 
-.exemple h3 {
+.example h3 {
   font-size: 1.125rem;
   font-weight: 700;
   margin-block-end: 1em;
 }
 
-.exemple h4 {
+.example h4 {
   font-size: 1.25rem;
   font-weight: 700;
   margin-block-end: 1;
 }
 
-.exemple h5 {
+.example h5 {
   font-size: rem;
   font-weight: 700;
   margin-block-end: 1em;
 }
 
-.exemple h6 {
+.example h6 {
   font-size: rem;
   font-weight: 700;
   margin-block-end: 1em;
   font-variant-ligatures: small-caps;
 }
 
-.exemple p {
+.example p {
   font-size: 1rem;
   font-weight: 400;
   margin-block-end: 1em;
@@ -53,12 +53,6 @@ small {
   font-weight: 400;
   margin-block-end: 1em;
 }
-header h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-block-end: 1em;
-}
-
 
 #section_sans_serif {
   font-family: sans-serif;
