@@ -1,8 +1,164 @@
 * {
-/*
-  Property name
-  Property description
-*/
-  /* Property example with a value */
-
+  all: unset;
 }
+/*'font-family`
+A font family is a set of fonts that have a common design. It is used for  generating the font of the text. The first item in the list is the default; the rest are used as fallbacks.
+We can  use: Garamond, times new romans, serif.
+*/
+/*Exemple*/
+ p {
+  font-family: fantasy;
+}
+
+/* font-size`
+It is a property that is set to define the size of the font.
+ */
+ /*Exemple*/
+p {
+  font-size: 1.5rem;
+}
+/* font-weight
+Font-weight is meant for setting the weight or boldness of the font. Normal is its default.
+The weights available always depend on the font-family we are using.
+We should use the numbers.
+*/
+  /*Exemple*/
+
+p {
+  font-weight: bold;
+}
+
+/* font-style
+The font-style property allows you to make text appear in different forms (eg: italicized). This property has three possible values: normal , italic , and oblique .
+
+  */
+  /*Exemple*/
+.font-style {
+  font-style: italic;
+}
+
+/* line-height
+The line-height property is used to define the minimal height of line boxes in the element. It sets the differences between two lines of the content, and defines the amount of space above and below inline elements.
+*/
+/*Exemple*/
+p {
+line-height: 5mm;
+}
+
+/* font-variant
+The font-variant property allows us to change the targeted text to small caps.This 'small-cups' value renders the text to uppercase.
+Tabular-nums is really useful when using a table to arrrange the order nicely.
+*/
+/*Exemple*/
+.font-variant{
+  font-variant: small-caps;
+}
+
+/* font-stretch
+The font-stretch property allows us to make text condensed or expanded.
+We can just select it to be normal. (To change the size of the lowercase letters).
+*/
+/*Exemple*/
+.font-stretch{
+  font-stretch: 50%;
+}
+
+/* font-size-adjust
+ The font-size-adjust sets how the font size should be chosen based on the height of lowercase rather than capital letters.
+*/
+/*Exemple*/
+.font-size-adjust{
+font-size-adjust: initial;
+}
+/* font-synthesis
+ This property controls which missing typefaces (the collective name of a family of related fonts), bold or italic, may be synthesized by the browser.
+
+*/
+/*Exemple*/
+
+.font-synthesis{
+  font-synthesis: style;
+}
+/*
+/*letter-spacing`
+Defines the spacing between the characters of a block of text.
+The default is normal.
+*/
+/*Exemple*/
+p {
+  letter-spacing: normal;
+}
+
+/*word-spacing
+Defines the spacing between the words of a block of text. The default is normal.
+*/
+/*Exemple*/
+p {
+word-spacing: 33px;
+}
+/*text-align
+This property is used to keep the line and the space for the content of a document. It is always better to use the 'start' value. Useful in tables.
+*/
+/*Exemple*/
+p {
+  text-align: start;
+}
+
+/*text-decoration
+It is used when we want to add decorations to our documents.
+*/
+
+  /*text-decoration-line
+It is used when we want to add a decoration lines to a text.
+  */
+  /*Exemple*/
+.text-decoration-line {
+text-decoration-line: overline;
+}
+
+  /*text-decoration-style
+It is used when we want to add different styles decoration to our documents.
+*/
+  /*Exemple*/
+p {
+  text-decoration-style: dotted;
+}
+
+  /*text-decoration-color
+It is used when we want to decorate the text with colours.
+  */
+  /*Exemple*/
+.text-decoration-color {
+  text-decoration-color: lightcoral;
+}
+/*text-indent
+The text-indent property specifies the indentation of the first line in a text-block. We can use negative as a value, so the first line will be indented to the left.
+*/
+/*Exemple*/
+.text-indent{
+  text-indent:-2em;
+}
+
+/*text-transform
+This property is used when we want to capitalise or minimalise an element's text. The text will appear as we intend to(lowercase or uppercase) by using this property.
+*/
+/*Exemple*/
+.text-transform{
+  text-transform: capitalize;
+}
+/*vertical-align
+Vertical-align controls how elements set next to each other on a line are lined up. It can be used with images.
+*/
+/*Exemple*/
+.vertical-aline{
+  vertical-align: middle;
+}
+
+/*white-space
+White space property helps us control how whitespace and line breaks within an element's text are treated.
+*/
+/*Exemple*/
+p {
+  white-space: pre or pre-wrap or pre-line;
+}
+
