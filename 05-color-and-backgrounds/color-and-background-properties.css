@@ -6,3 +6,97 @@
     /* Property example with a value */
 
   }
+  /*color:
+It is a property that enables us to specifie the color of text
+ so that the text will be coloured.
+
+  */
+  /*Example*/
+.color {
+  color: red;
+}
+
+
+  /*background-color:
+It is a property that sets the background color of an element. It is the total size of the element, including padding and border.
+
+  */
+  /*Example*/
+.color {
+  background-color: maroon;
+
+}
+
+
+  /*background-image:
+It is a property that sets one or more background images for an element.
+A background image will be placed on top of a background color and cover the content, padding, and border areas of a box.
+  */
+  /*Example*/
+img {
+  background-image:url(barack-obama.jpg)
+}
+
+
+  /*background-repeat:
+It is a property that sets how a background image will be repeated
+  */
+  /*Example*/
+header {
+  background-repeat: repeat-x;
+}
+
+  /*background-position:
+It is a property that can help us set the position of the background images.
+
+  */
+  /*Example*/
+p {
+  background-position: top;
+}
+
+
+  /*background-attachment:
+It is a property that specifies whether the image set using background-image property is fixed with respect to the containing block or should it scroll.
+
+  */
+  /*Example*/
+.background-attachment {
+  background-attachment: fixed;
+}
+  /*background-clip:
+It is a property that specifies the area within which the background is painted.
+
+  */
+  /*Example*/
+p {
+  background-clip: border-box;
+}
+
+
+  /*background-origin:
+It is a property that specifies the background positioning area. It specifies where the origin of the background image (its upper left corner) will be when the background is painted.
+
+  */
+  /*Example*/
+p {
+  background-origin: content-box;
+}
+
+
+  /*background-size:
+It is a property that is used to specify the size of the background.
+
+  */
+p {
+  background-size: 56px;
+}
+
+  /*box-shadow:
+It is a property that is used to cast one or more drop shadows to an element.
+  */
+  /*Example*/
+box {
+  box-shadow: 5px -5px;
+}
+
