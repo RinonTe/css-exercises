@@ -1,39 +1,28 @@
 .position {
-background-image: linear-gradient(to bottom,red,orange,yellow);
-background-color: skyblue;
-background-repeat: repeat-x;
-background-image: url('../images/coral-reef.png'),
-                  url('../images/bubble.png');
-background-position: bottom;
-background-size: auto;
+background-image: url('../images/bubble.png'),
+                  url('../images/crab.png'),
+                  url('../images/coral-reef.png'),
+                  linear-gradient(to bottom,rgb(0, 162, 255),rgb(38, 0, 255));
+background-repeat: repeat-x, no-repeat, repeat-x;
+background-position: top, bottom left, bottom;
+background-size: 600px, 10cm, 20cm;
 
 }
 
 #background {
-background-color: transparent;
-background-image: url('../images/sun.png');
-background-repeat: no-repeat;
-background-position: topright;
-background-size: 250px;
-
-}
-
-.images {
-background-image: url('../images/grass-clump.png'),
+background-color:rgb(135, 203, 235);
+background-image:
+                  url('../images/grass-clump.png'),
                   url('../images/grass-left.png'),
-                  url('../images/grass-tile.png');
-background-position:center;
-background-repeat: repeat-x,
-                   repeat-x,
-                   no-repeat;
-background-size: 400px;
+                  url('../images/grass-tile.png'),
+                  url('../images/beach-ball.png'),
+                  url('../images/sun.png');
+background-repeat: no-repeat, repeat-x, no-repeat, no-repeat, no-repeat;
+background-position:center, center, center, center right, top left;
+background-size: 10cm, 35cm, 35cm, 200px, 250px;
+
 }
-.png {
-  background-image: url('../images/beach-ball.png');
-  background-position: bottom, left;
-  background-size: 236px;
-  background-repeat: no-repeat;
-}
+
 
 #source {
 background-color:rgb(135, 212, 235);
