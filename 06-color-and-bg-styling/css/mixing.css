@@ -1,0 +1,55 @@
+.position {
+background-image: linear-gradient(to bottom,red,orange,yellow);
+background-color: skyblue;
+background-repeat: repeat-x;
+background-image: url('../images/coral-reef.png'),
+                  url('../images/bubble.png');
+background-position: bottom;
+background-size: auto;
+
+}
+
+#background {
+background-color: transparent;
+background-image: url('../images/sun.png');
+background-repeat: no-repeat;
+background-position: topright;
+background-size: 250px;
+
+}
+
+.images {
+background-image: url('../images/grass-clump.png'),
+                  url('../images/grass-left.png'),
+                  url('../images/grass-tile.png');
+background-position:center;
+background-repeat: repeat-x,
+                   repeat-x,
+                   no-repeat;
+background-size: 400px;
+}
+.png {
+  background-image: url('../images/beach-ball.png');
+  background-position: bottom, left;
+  background-size: 236px;
+  background-repeat: no-repeat;
+}
+
+#source {
+background-color:rgb(135, 212, 235);
+background-image: url('../images/lu-seal.png'),
+                  url('../images/palm.png'),
+                  url('../images/palm-2.png');
+
+background-position: 100in ;
+background-repeat: no-repeat, repeat-x,repeat-x;
+
+}
+
+.crab {
+  background-image: url('../images/crab.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 135px;
+  size: 33px;
+  }
