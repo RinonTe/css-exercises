@@ -1,13 +1,33 @@
-* {
-/*
-  Property name
-  Property description
-*/
-  /* Property example with a value */
-}
 
 /*
-  Questions
+  Opacity:
+
+  Opacity property  in css speifies how transparency an element is.
+  Its default is set as 0 and the values are between 0-1.
+*/
+  /* Property example with a value */
+
+  .img {
+    opacity: 0.5;
+  }
+/* Display:
+The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.
+
+*/
+/*Example*/
+.content {
+  display: flex;
+}
+/*Visibility:
+The visibility CSS property shows or hides an element without changing the layout of a document.
+Instead of hiding and removing an element from a document, we can just set the display value to 'none' rather than using visibility.
+/*
+/*Example*/
+#content {
+  visibility: hidden;
+}
+
+ /* Questions
   =======================
 
   - What is the difference between `opacity` and a `background-color` that is semi-transparent?
@@ -15,4 +35,14 @@
   - Why would we use `visibility: visible;`?
 
 */
-
+/*
+1-We can use opacity:0.5 to make the object half transparent. But that will make the children transparent as well.But we can use background-color semi-transparent  to make half-transparent with an element
+*/
+/*
+Instead of hiding and removing an element from a document, we can just set the display value to 'none' rather than using visibility.
+Display:'none'; nothing will completely remove the element from the document and turns off the display.
+visibility: hidden; nothing will be displayed but it will still be measured or the space will still be seen.
+*/
+/*
+we would use `visibility: visible; we can see the element.
+*/
