@@ -10,35 +10,49 @@ background-size: 600px, 10cm, 20cm;
 }
 
 #background {
-background-color:rgb(135, 203, 235);
-background-image:
-                  url('../images/grass-clump.png'),
+background-image: url('../images/grass-clump.png'),
                   url('../images/grass-left.png'),
                   url('../images/grass-tile.png'),
-                  url('../images/beach-ball.png'),
-                  url('../images/sun.png');
-background-repeat: no-repeat, repeat-x, no-repeat, no-repeat, no-repeat;
-background-position:center, center, center, center right, top left;
-background-size: 10cm, 35cm, 35cm, 200px, 250px;
+                  url('../images/sun.png'),
+                  linear-gradient(0deg, lightyellow 50%,lightblue 50%);
+background-repeat: no-repeat,
+                    repeat-x,
+                    no-repeat,
+                    no-repeat,
+                    no-repeat;
+background-position:center,
+                    center right,
+                    center,
+                    top left,
+                    top;
+
+background-size: 10cm,
+                 36px,
+                 200px,
+                 200px,
+                 100%;
 
 }
 
 
 #source {
-background-color:rgb(135, 212, 235);
-background-image: url('../images/lu-seal.png'),
+background-image:
                   url('../images/palm.png'),
-                  url('../images/palm-2.png');
-
-background-position: 100in ;
-background-repeat: no-repeat, repeat-x,repeat-x;
-
+                  url('../images/palm-2.png'),
+                  url('../images/crab.png'),
+                  linear-gradient(to top, lightyellow 0% 30%,rgb(0, 162, 255) 30% 90%,skyblue 90% 100%);
+background-position: bottom right,
+                    bottom left,
+                    right,
+                    top;
+background-repeat:repeat-x,
+                  repeat-x,
+                  no-repeat,
+                  no-repeat;
+background-size:200px,
+                200px,
+                100px,
+                100%;
 }
 
-.crab {
-  background-image: url('../images/crab.png');
-  background-position: bottom;
-  background-repeat: repeat-x;
-  background-size: 135px;
-  size: 33px;
-  }
+
