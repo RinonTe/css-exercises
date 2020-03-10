@@ -2,14 +2,14 @@
 
 #cloud-1 {
 background-image: url(../images/cloud.svg);
-background-size: 50% 40% ;
+background-size: 50px 40px;
 background-position: left bottom 85%;
 background-repeat: no-repeat;
 }
 
 #cloud-2 {
 background-image: url(../images/cloud.svg);
-background-size: 50% 45% ;
+background-size: 50px 45px;
 background-position: right 90% bottom 80%;
 background-repeat: no-repeat;
 
@@ -24,15 +24,15 @@ background-repeat: no-repeat;
 
 #house-1 {
 background-image: url(../images/house-1.svg);
-background-size: 65% 65%;
-background-position: right 95% bottom;
+background-size: 80px 80px;
+background-position: bottom left;
 background-repeat: no-repeat;
 
 }
 #house-2 {
   background-image: url(../images/house-2.svg);
-  background-size: 46% 46% ;
-  background-position: right 10% bottom;
+  background-size: 56px 56px;
+  background-position: bottom right;
   background-repeat: no-repeat;
 
 }
@@ -49,8 +49,8 @@ background-repeat: no-repeat;
 
 #car {
   background-image: url(../images/car.svg);
-  background-size: 70% 35%;
-  background-position: bottom;
+  background-size: 70px 70px;
+  background-position: bottom left;
   background-repeat: no-repeat;
 
 }

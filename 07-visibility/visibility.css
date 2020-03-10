@@ -40,9 +40,12 @@ Instead of hiding and removing an element from a document, we can just set the d
 */
 /*
 2-Instead of hiding and removing an element from a document, we can just set the display value to 'none' rather than using visibility.
-Display:'none'; nothing will completely remove the element from the document and turns off the display.
+Display:'none'; it will completely remove the element from the document and turns off the display.
 visibility: hidden; nothing will be displayed but it will still be measured or the space will still be seen.
+
+What is the difference between “visibility: hidden”, “display: none” and "opacity: 0"? Visibility:hidden- this property will hide the element but it will occupy the space. ... Opacity:0- this property is used to make the element transparent.
 */
 /*
 3-we would use `visibility: visible; visible makes things visible. we can see the element.
+
 */
