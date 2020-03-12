@@ -55,6 +55,7 @@ Box-sizing:
 
 The box-sizing property defines how the width and height of an element are calculated
 */
+
 /*
 1. It depends, if the box has a size bigger than the size of the two different margin, the two margin would be an inner of the box. If one margin is greater than the other, then that margin overrides the other.
 
@@ -62,10 +63,19 @@ The box-sizing property defines how the width and height of an element are calcu
 The values of an element's width, margin-left, margin-right, left and right properties as used for layout depend on the type of box generated and on each other.
 
 3-These are the difference:
+Display 'block' has some whitespace above and below it but 'inline' does not have a line break before or after the element.
 inline has only margin-left, margin-right, padding-left, padding-right but
 inline-block has margin, padding, height, width when displayed.
 
 */
+
+
+Body {
+background-image: linear-gradient(to right,rgba(0, 81, 255, 0.5) 0%, rgba(136, 255, 0, 0.3 ) 80%,rgba(0, 128, 122, 0.4) 95%);
+border: groove;
+border-width: 6px;
+border-color: rgba(255, 105, 180, 0.548);
+}
 
 
 #essay {
@@ -75,15 +85,15 @@ inline-block has margin, padding, height, width when displayed.
   width: 65%;
   height: 65%;
   border: 1px solid blue;
-
-
 }
+
 h1 {
   font-family: serif;
   font-style: italic;
   font-size: 2rem;
   font-weight: bolder;
   color: rgb(125, 100, 237);
+  padding-left: 4rem;
 }
 h2 {
   font-family: fantasy;
@@ -94,9 +104,19 @@ p {
   font: lighter;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+p abbr {
+  color:rgba(36, 128, 0, 0.6);
+  font-weight: lighter;
+}
 
 #diagram {
   background-color: snow;
+  border: solid 1px;
+  width: 66%;
+  height: 95%;
+  padding-top: 1rem;
+  border-top: solid 2rem;
+  border-top-color: cornflowerblue;
   }
 
 figure {
@@ -104,7 +124,15 @@ figure {
   border: 36px 36px 70px 36px;
   margin: 36px 0px 20px 36px;
   padding: 10px 70px 50px 0px;
-  display: grid;
+  display: block;
   box-sizing: content-box;
-  border-color: chartreuse;
+
+
+}
+img {
+  border-radius: 8px;
+  border: solid 1px;
+  width: 400px;
+  height: 400px;
+  margin-left: 36px ;
 }
