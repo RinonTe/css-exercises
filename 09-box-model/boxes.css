@@ -1,7 +1,110 @@
 * {
-  /*
-    Property name
-    Property description
+}
+
+
+/*
+   Content-box:
+
+   The content in the model box is the area where the text or image appears.
   */
-    /* Property example with a value */
+
+/*
+Padding-box:
+ Padding is the space between the content and the border.
+ It the clears an area around the content and also transparent
+*/
+
+
+/*
+ Border-box:
+  Border is the space betwen the padding and margin.
+  border-box tells the browser to account for any border and padding in the values we specify for an element's size. It is the border that goes around the padding and content.
+*/
+
+
+/*
+Border:
+
+The CSS border property defines the width, line style, and color of the border of a box.
+It is a shorthand property for setting the border-width, border-style, and border-color CSS properties
+
+*/
+ /* Property example with a value */
+
+
+/*
+The margin CSS property sets the margin area on all four sides of an element.
+It is a shorthand for margin-top , margin-right , margin-bottom , and margin-left .
+*/
+
+/*
+Padding:
+
+An element's padding is the space between its content and its border.
+ The padding property is a shorthand property for: padding-top. padding-right.
+*/
+
+/*
+Display:
+
+The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children.
+*/
+
+/*
+Box-sizing:
+
+The box-sizing property defines how the width and height of an element are calculated
+*/
+/*
+1. It depends, if the box has a size bigger than the size of the two different margin, the two margin would be an inner of the box. If one margin is greater than the other, then that margin overrides the other.
+
+2. What is the formula for working out an element's visual width?
+The values of an element's width, margin-left, margin-right, left and right properties as used for layout depend on the type of box generated and on each other.
+
+3-These are the difference:
+inline has only margin-left, margin-right, padding-left, padding-right but
+inline-block has margin, padding, height, width when displayed.
+
+*/
+
+
+#essay {
+  background-color: aliceblue;
+  display: inline-block;
+  padding: 0.5rem;
+  width: 65%;
+  height: 65%;
+  border: 1px solid blue;
+
+
+}
+h1 {
+  font-family: serif;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(125, 100, 237);
+}
+h2 {
+  font-family: fantasy;
+  font-weight: lighter;
+  color: black (255, 0, 0, 0.438);
+}
+p {
+  font: lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#diagram {
+  background-color: snow;
   }
+
+figure {
+  border-width: 3rem;
+  border: 36px 36px 70px 36px;
+  margin: 36px 0px 20px 36px;
+  padding: 10px 70px 50px 0px;
+  display: grid;
+  box-sizing: content-box;
+  border-color: chartreuse;
+}
