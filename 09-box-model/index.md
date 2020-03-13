@@ -6,7 +6,7 @@ In the CSS standards specification, there's a guideline Browsers have to follow 
 
 Glad you asked. Every visible HTML element is a box.
 
-## Understanding the Box Model
+## Understanding the Box Model 
 
 To understand the Box Model better, we're going to have to learn the model itself, and the associated properties and keywords.
 
