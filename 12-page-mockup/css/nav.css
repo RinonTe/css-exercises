@@ -1,0 +1,36 @@
+
+nav li {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+font-size: 1rem;
+font-weight: normal;
+position: relative;
+text-transform: uppercase;
+position: relative;
+top: -5rem;
+left: 50%;
+}
+
+nav a {
+   color: white;
+}
+
+nav li:nth-child(2) {
+position: relative;
+top: -6.3rem;
+left: 60%;
+
+}
+
+nav li:nth-child(3) {
+  position: relative;
+  top: -7.6rem;
+  left: 70%;
+  }
+
+nav li:nth-child(4) {
+  position: relative;
+  top: -9rem;
+  left: 89%;
+}
+

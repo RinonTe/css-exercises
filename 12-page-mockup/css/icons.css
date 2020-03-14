@@ -1,0 +1,31 @@
+footer a {
+  text-decoration: none;
+  color:white;
+}
+
+footer li {
+  position: relative;
+
+}
+
+footer li:nth-child(1) {
+  background-image: url(../images/icon-twitter.png);
+  background-position: center;
+
+}
+
+footer li:nth-child(2) {
+  background-image: url(../images/icon-facebook.png);
+  background-position: center;
+  position: relative;
+  top: -8rem;
+  left: 7rem;
+
+}
+footer li:nth-child(3) {
+  background-image: url(../images/icon-github.png);
+  background-position: center;
+  top: -16rem;
+  left: 14rem;
+}
+

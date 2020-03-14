@@ -1,0 +1,14 @@
+
+.post2 a:nth-child(3) {
+  margin: 1rem;
+  border: 1px solid;
+  padding: 1rem;
+  width: 9rem;
+  height: 0.5rem;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: cornflowerblue;
+  position: relative;
+  bottom: -3rem;
+  left: 65%;
+}

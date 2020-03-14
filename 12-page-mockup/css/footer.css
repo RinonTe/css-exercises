@@ -1,0 +1,19 @@
+
+footer li {
+  margin: 3rem 5rem ;
+  padding: 2rem;
+  border-radius: 10rem;
+  width: 1rem;
+  height: 1rem ;
+  display: flex;
+}
+footer a {
+ z-index: initial;
+}
+footer p {
+  position: relative;
+  top: -17rem;
+  left: 9rem;
+}
+
+
