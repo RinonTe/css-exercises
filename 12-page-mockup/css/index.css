@@ -6,6 +6,8 @@
 
 /* The handling of links for the site nav */
 @import "nav.css";
+/*The backgroung  set image for the headers*/
+@import "masthead.css";
 
 /* Layout, and sizing of the post summaries */
 @import "posts.css";

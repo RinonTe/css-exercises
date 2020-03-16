@@ -1,13 +1,14 @@
 
 .post1 {
   border-block-end: 1px solid;
+  border-color: rgba(0, 0, 0, .2);
 }
 section a {
   color: black;
 }
 
- section{
-  margin: 32px 200px;
+ section {
+  margin: 16px 200px;
   line-height: 0.5rem;
 
 }

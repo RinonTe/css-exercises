@@ -1,4 +1,35 @@
 
+/*Switch off default list*/
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Let the footer manage the spacing.
+We'll be using 'display:inline' to all documents*/
+footer {
+  text-align: center;
+  padding-block-start: 7.5rem;
+  padding-block-end:  7.5rem;
+
+}
+/*Make all list-tems t be displayed inline*/
+footer li {
+  display: inline;
+
+}
+/* Set the margin 2rem but that should not be applyed to the first and last lists*/
+footer li:not(:first-child):not(:last-child) {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+}
+/*Reset the copyright paragraph default style*/
+footer p {
+  color: rgb(75,75,75);
+
+}
+
+/*
 footer li {
   margin: 3rem 5rem ;
   padding: 2rem;
@@ -10,15 +41,8 @@ footer li {
 footer a {
  z-index: initial;
 }
-footer p {
-  position: relative;
-  top: -17rem;
-  left: 9rem;
-}
+*/
 
-footer {
-width: 60%;
-height: 9rem;
-}
+
 
 

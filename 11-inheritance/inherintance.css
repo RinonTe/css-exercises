@@ -4,11 +4,12 @@ When applied to an element in a document, a property with the value 'inherit' wi
 
 2. The aural-oriented properties have values that inherited by default.
 
-3. When we used 'curent-color' , it will give whatever color we would want to have depending on what we have set, whereas 'inherit' would just give the colour from the parent property.
+3. When we used 'curent-color' , it will give whatever color we would want to have, depending on what we have set, whereas 'inherit' would just give the colour from the parent property.
 
 4.The unset keyword will first try to fall back to inherited property values, while revert will directly fall back to browser/custom stylesheet. The 'initial' CSS keyword applies the initial (or default) value of a property to an element.
-5. The dangerous matter is that your CSS might well fail and this can also cause some behavior that you might not expect.
+5. The dangerous matter is that your CSS might well fail, It's not supported in IE6 and IE7, and this can also cause some behavior that you might not expect.
 The unset and revert values aren't good enough because they still allow inheritance and so doesn't wipe out styles well enough.
+
 */
 
 
