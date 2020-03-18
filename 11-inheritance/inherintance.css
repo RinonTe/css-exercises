@@ -9,7 +9,6 @@ When applied to an element in a document, a property with the value 'inherit' wi
 4.The unset keyword will first try to fall back to inherited property values, while revert will directly fall back to browser/custom stylesheet. The 'initial' CSS keyword applies the initial (or default) value of a property to an element.
 5. The dangerous matter is that your CSS might well fail, It's not supported in IE6 and IE7, and this can also cause some behavior that you might not expect.
 The unset and revert values aren't good enough because they still allow inheritance and so doesn't wipe out styles well enough.
-
 */
 
 
