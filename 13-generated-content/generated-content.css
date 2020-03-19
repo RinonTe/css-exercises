@@ -2,7 +2,7 @@
 1. Pseudo-elements
 
 a. The special property that we can use pseudo elements with is content.
-We have to use it because the initial value of content is normal , which computes to none on the ::before and ::after pseudo-elements.
+We have to use it because the initial value of content is normal , which computes to 'none' on the ::before and ::after pseudo-elements.
 
 
 b. We can use 'counter() or counters()' fonction in that property's value.
