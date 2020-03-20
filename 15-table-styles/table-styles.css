@@ -1,0 +1,36 @@
+/*
+1.a. The defaults of these value:
+
+ table-layout: auto
+ border-spacing: 2px
+ border-collapse: separate
+ caption-side: top
+ empty-cells: show
+
+  b.The correspond elements for its display value:
+ - table: <table>
+- table-row-group: <tbody>
+- table-header-group: <thead>
+- table-footer-group: <tfoot>
+- table-row: <tr>
+- table-cell: <td>
+- table-column-group: <colgroup>
+- table-column: <col>
+- table-caption: <caption>
+
+2.a. `Border-spacing` requires 'border-colapse: separate' before it can work effectively
+
+  b. The drawbacks of using various table:
+    .You can only squeeze in a small number of columns before the table
+    width causes horizontal scrolling on smaller screens.
+    .Page size is increased and the same content displayed without a table.
+    .Page rendering is slowed.
+
+  c. The difference between `table-layout: fixed` and `table-layout: auto`:
+auto : the default is used to define how a table's rows, cells, and columns are laid out, but fixed :  we can specify the table's width, any specified width of columns, and border and cell spacing values that we want to use.
+
+  d. The border-spacing property in CSS controls how far apart cells are in an element, so we may not be able to use it with non-table elements.
+
+  e. The empty-cells elements requires the same requirements as 'border-spacing' because we have got to use 'border-colapse: separate'  before it can work effectively.
+
+*/
