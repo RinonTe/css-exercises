@@ -1,5 +1,14 @@
 /* Styles for all mediums go here */
 @media all {
+a::after {
+    content: " [" attr(href) "]";
+  }
+abbr::after {
+  content: " [" attr(title) "]";
+}
+blockquote::after {
+   content: " [" attr(cite) "]";
+ }
 
 }
 

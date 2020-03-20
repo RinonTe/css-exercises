@@ -5,7 +5,7 @@ a. The special property that we can use pseudo elements with is content.
 We have to use it because the initial value of content is normal , which computes to 'none' on the ::before and ::after pseudo-elements.
 
 
-b. We can use 'counter() or counters()' fonction in that property's value.
+b. We can use 'counter() or counters()', 'attr()' and 'url()' fonction in that property's value.
 
 c. The various pseudo-elements are:
 :before
@@ -23,7 +23,7 @@ counter-reset: creates or resets a counter
 counter-increment: increments a counter value
 content: inserts generated content
 counter() or counters() function: adds the value of a counter to an element
- The name cannot start with two dashes and can't be none, unset, initial, or inherit.
+    The name cannot start with two dashes and can't be none, unset, initial, or inherit.
 
 b. We reset the counter by setting the css counter a given number
 - A <custom-ident> naming the counter, followed optionally by an <integer> . we can specify as many counters to reset as we want, but each name or name-number must be separated by a space.
@@ -33,7 +33,8 @@ c- Counters are really useful for counting, measuring time and frequency.
 
 3. Lists
 a. Properties that are related to list:
-list-style, text-decoration, padding, margin, border, ligne-height, font-family, font-style, font-weight, font-height, ,list-style-type.
+list-style, list-style-type, list-style-position,
+ list-style-image.
 
 b. types of bullets styles:
 Circles as Bullets
@@ -41,7 +42,7 @@ Discs as Bullets
 Images as Bullets
 Roman Numerals
 Squares as Bullets
-Custom Bullets
+ 
 
 c. It might be possible to style any group of elements to look like a list but we need to use special properties. If possible, we may well use the 'list-style-type' property and some pseudo-elements.
 

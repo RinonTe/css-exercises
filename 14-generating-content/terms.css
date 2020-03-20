@@ -26,64 +26,63 @@ white-space: normal;
 overflow: auto;
 text-overflow: ellipsis;
 
-
 }
 
 
 
-h3::before {
-  /* Increment "subsection" by 1 */
+section > h3::before {
+
   counter-increment: section;
-  content: counter(section) "."  ;
+  content: counter(section) ".";
 
 }
-h3 {
-  /* Set "my-sec-counter" to 0 */
-  counter-reset: my-sec-counter;
+
+section > h3 {
+  counter-reset: h4;
   font-size: 1.5rem;
 }
 
-h4::before {
-  /* Increment "my-sec-counter" by 1 */
-  counter-increment: my-sec-counter;
-  content:counter(section) "." counter(my-sec-counter) ". ";
+section > h4::before {
+  counter-increment: h4;
+  content:counter(section) "." counter(h4) ".";
 
 
 }
 
-h4 {
-  /* Set "my-third-counter" to 0 */
-  counter-reset: my-third-counter;
+section > h4 {
+
+  counter-reset:  ol;
   font-size: 1rem;
   padding-inline-start: 1rem;
 
 }
 
-ol::before {
-  counter-increment: my-third-counter;
-  content: counter(section) "." counter(my-sec-counter) "." counter(my-third-counter,lower-alpha) ".";
+section ol::before {
+  counter-increment: ol;
+  content: counter(section) "." counter(h4) "." counter(ol,lower-alpha) ".";
   font-weight: bold;
 
 }
 
-ol{
-  counter-reset:  my-forth-counter;
+section ol {
+  counter-reset: li;
 
 }
 
-li {
+  ol li {
   list-style-type: none;
 }
 
-ol li::before {
-  /* Increment "my-forth-counter" by 1 */
-  counter-increment: my-forth-counter;
-  content: counter(section) "." counter(my-sec-counter) "." counter(my-third-counter,lower-alpha)"." counter(my-forth-counter,lower-roman) ".";
+section ol > li::before {
+
+  counter-increment: li;
+  content: counter(section) "." counter(h4) "." counter(ol,lower-alpha)"." counter(li,lower-roman) ".";
   font-weight: bold;
   padding-inline-start: 8px;
 }
 p {
   padding-inline-start: 2rem;
-
-
 }
+
+
+
