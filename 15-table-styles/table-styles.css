@@ -27,10 +27,9 @@
     .Page rendering is slowed.
 
   c. The difference between `table-layout: fixed` and `table-layout: auto`:
-auto : the default is used to define how a table's rows, cells, and columns are laid out, but fixed :  we can specify the table's width, any specified width of columns, and border and cell spacing values that we want to use.
+auto : the default is used to define how a table's rows, cells, and columns are laid out, but fixed :  we can specify the table's width, any specified width of columns, and border and cell spacing values that we want to use. Distributes the colons as the width of the table.
 
-  d. The border-spacing property in CSS controls how far apart cells are in an element, so we may not be able to use it with non-table elements.
+  d. The border-spacing property in CSS controls how far apart cells are in an element, so we may not be able to use it with non-table elements but we have to have the display set.
 
   e. The empty-cells elements requires the same requirements as 'border-spacing' because we have got to use 'border-colapse: separate'  before it can work effectively.
-
 */
