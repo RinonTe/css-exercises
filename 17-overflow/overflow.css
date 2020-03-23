@@ -17,7 +17,7 @@ Clip: auto
 Clip-path: none
 
  b.We use it when we want to create a clipping region that sets what part of an element should be shown.
- 
+
 4.a. The default of the text-overflow property is clip
 
 -Text-overflow: ellipsis:
@@ -26,7 +26,7 @@ Clip-path: none
 
  c. We have got to use overflow and white-space properties before it can work effectively.
 
-5.a. The browser will flick the contents to fit in its container.
+5.a. The browser will cutt off or hidden the contents to fit in its container.
 
  b.Elipsis is a series of dots that usually indicates an intentional omission of a word, sentence, or whole section from a text without altering its original meaning.
  Ellipses is the plural of elipsis.
