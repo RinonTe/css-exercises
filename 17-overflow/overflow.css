@@ -1,0 +1,36 @@
+/*
+1.a. The default of the overflow property:
+Overflow: visible
+
+ b. We would use when the content is too big to fit in the box in order to make easy to use.
+
+ c. In order for overflow to have an effect, the block-level container must have either a set height or white-space set to nowrap.
+
+2.a. The default of the clip property:
+Clip: auto
+
+  b.It is used to define what  part of the content should be visible.
+
+  c. The clip property applies only to absolutely positioned elements, that is elements with position:absolute or position:fixed.
+
+3.a.The default of the clip-path property
+Clip-path: none
+
+ b.We use it when we want to create a clipping region that sets what part of an element should be shown.
+ 
+4.a. The default of the text-overflow property is clip
+
+-Text-overflow: ellipsis:
+
+ b. We would use Text-overflow: ellipsis because we want to signal the user that the content still have followings.
+
+ c. We have got to use overflow and white-space properties before it can work effectively.
+
+5.a. The browser will flick the contents to fit in its container.
+
+ b.Elipsis is a series of dots that usually indicates an intentional omission of a word, sentence, or whole section from a text without altering its original meaning.
+ Ellipses is the plural of elipsis.
+
+ c. Overflow is different from the other properties because by using this, we can render the text that is not fit in the countainer box in some methodes which no one of the others could do.
+
+
