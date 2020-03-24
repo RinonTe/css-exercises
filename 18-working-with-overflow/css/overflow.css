@@ -28,7 +28,7 @@
 }
 
 
-#overclip div {
+#overclip div {             
 width: 300px;
 height: auto;
 overflow: scroll;
