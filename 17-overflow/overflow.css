@@ -11,7 +11,7 @@ Clip: auto
 
   b.It is used to define what  part of the content should be visible.
 
-  c. The clip property applies only to absolutely positioned elements, that is elements with position:absolute or position:fixed.
+  c. The clip property applies only to absolutely positioned elements, that is elements with position:absolute or position:fixed. It doesn't work if the 'overflow:viisible'
 
 3.a.The default of the clip-path property
 Clip-path: none
