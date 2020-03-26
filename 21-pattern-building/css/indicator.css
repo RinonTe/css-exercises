@@ -1,0 +1,45 @@
+
+.progress_indicator {
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  counter-reset: li;
+  margin: 0;
+}
+
+
+
+.progress_indicator li {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  position: relative;
+  line-height: 3rem;
+
+}
+.progress_indicator li::before {
+  width: 3rem;
+  height: 3rem;
+  counter-increment: li;
+  align-self: center;
+  content: counter(li);
+  border: solid transparent;
+  border-radius: 50%;
+  padding: .5rem;
+  color: white;
+  line-height: 3rem;
+  background-color: rgba(255, 192, 245, 0.76);
+
+
+}
+.progress_indicator li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.835);
+}
+
+.progress_indicator li a:hover {
+  color:rgba(119, 0, 255, 0.527);
+}
+
+

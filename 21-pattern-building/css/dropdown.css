@@ -1,0 +1,26 @@
+
+.dropdown_contents a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+input:checked + label {
+color:  rgba(51, 128, 0, 0.849);
+}
+
+.dropdown_trigger:after {
+  content: "▼";
+  color: blue;
+}
+
+.dropdown_contents ul {
+  visibility: collapse;
+  display: inline-block;
+}
+
+
+#dropdown_checkbox:checked ~ * li a {
+  visibility: visible;
+  display: block;
+}

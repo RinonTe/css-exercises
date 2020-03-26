@@ -1,0 +1,27 @@
+/*
+ 1.The defaults of these values:
+
+min-width: 0;
+max-width:none;
+min-height:0;
+max-heigh:none;
+
+ 2. If the element is a block-like element, these defaults change, but if the element is a inline-like element, they do not change because their values are always 'auto'.
+
+ 3. The element's width is set to the value of min-width whenever min-width is larger than max-width or width.
+
+ 4. If max-width value is less than the width value, the width value will be the one that’s applied and the max-value will not have an effect.
+
+ 5. If a `min-width` value is greater than a `max-width` value, the min-width value will be applied.
+
+ 6. When `width`s are applied to table cells, and the content inside these cells doesn't fit,  the cells will be kind of wide depending on the content inside.
+
+ 7.the deal with `height` and percentage value.
+ Percentage  refers to height of containing block and it is the fraction of the value that came before it. It's the smallest controllable element on the screen. It's always the width of an indent.
+
+ 8. The interesting characteristics of this ruleset:
+ .Using the vw which is the viewport width unit in the max-width.
+ .The min-width is greater than the max-with of small devices and the max-width is so wide.
+ 9. In this case, the min-width will be the implied of the div.
+
+*/

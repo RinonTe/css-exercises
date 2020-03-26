@@ -1,0 +1,33 @@
+
+.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+
+}
+
+.breadcrumb li {
+  display: inline;
+  font-size: 20px;
+}
+
+.breadcrumb li + li {
+  padding: 8px;
+  color: rgba(0, 0, 0, 0.65);
+
+}
+
+.breadcrumb a::after {
+  content: "/";
+  padding-inline-start: 1rem;
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: grey;
+
+}
+
+.breadcrumb li a:hover {
+  color:rgba(119, 0, 255, 0.527);
+ 
+}

@@ -1,0 +1,35 @@
+.example {
+  background-image: linear-gradient(to left, rgba(128, 128, 128, 0.371) 0% 50%, rgba(128, 128, 128, 0.359) 50% 100% );
+
+}
+
+.icon {
+font-size: 2rem;
+text-decoration: none;
+color: black;
+
+}
+
+
+
+  .icon_left::before {
+   content: "";
+  background-image: url(../images/icon-facebook.png);
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon_right::after {
+ content: "";
+background-image: url(../images/icon-facebook.png);
+display: inline-block;
+width: 2rem;
+height: 2rem;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-size: contain;
+}
