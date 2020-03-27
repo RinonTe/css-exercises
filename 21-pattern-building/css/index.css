@@ -1,5 +1,10 @@
+
 @import "setup.css";
 @import "icon.css";
 @import "dropdown.css";
 @import "breadcrumb.css";
 @import "indicator.css";
+
+html {
+  background-image: linear-gradient(to left, rgba(0, 225, 255, 0.05) 0% 25%, rgba(144, 238, 218, 0.1) 25% 100%);
+}

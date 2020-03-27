@@ -7,6 +7,7 @@
 font-size: 2rem;
 text-decoration: none;
 color: black;
+margin-inline-start: 1rem;
 
 }
 
@@ -21,6 +22,8 @@ color: black;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-inline-end: 2rem;
+  align-self: baseline;
 }
 
 .icon_right::after {
@@ -32,4 +35,5 @@ height: 2rem;
 border-radius: 50%;
 background-repeat: no-repeat;
 background-size: contain;
+margin-inline-start: 2rem;
 }
