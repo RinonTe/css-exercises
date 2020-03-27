@@ -6,12 +6,12 @@
 5. position: sticky; is positioned based on the user's scroll position.will behave like a relatively-positioned element until it reaches a specified point and then starts behaving like a statically-positioned element
  . position: fixed; always fixates an element to some position within its scrolling container or the viewport.
  That means, both always stay even if the page is scrolled.
-6.
+6. We can we lock that element's coordinates to its parent element by using z-index.
 7. `absolute` positioned layouts allows us to make an element the containing block for its absolutely positioned descendants and it gives control.
 8.  rules if two absolutely positioned elements stack:
 . The z-index property should be well-specified.
 . Assign the opacity not less than 1
-If an element is assigned a positive (non-zero and non-auto) z-index value, it is rendered above all the other elements.
+If an element is assigned a positive (non-zero and non-auto) z-index value, it is rendered above all the other elements, and if two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
 9. A stacking context is created when an element is positioned and assigned a z-index value other than auto , or when an element has an opacity value less than 1.
 
 */
