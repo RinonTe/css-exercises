@@ -1,4 +1,33 @@
+
 section:nth-of-type(3) .container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+section:nth-of-type(3) .container svg:not(:first-of-type) {
+  position: absolute;
+  width: 50%;
+}
+section:nth-of-type(3) .container .rect {
+top: 3rem;
+left: 2.9rem;
+}
+
+section:nth-of-type(3) .container .pipe {
+top: 3rem;
+left: 3rem;
+}
+
+section:nth-of-type(3) .container .bar {
+  top: 3rem;
+  left: 2.9rem;
+  }
+
+
+
+
+  
+/*section:nth-of-type(3) .container {
   max-width: 200px;
   max-height: 12.5rem;
 }
@@ -29,3 +58,5 @@ section:nth-of-type(3) .container .bar {
   bottom: 22.5rem;
 
  }
+*/
+

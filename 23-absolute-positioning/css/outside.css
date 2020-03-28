@@ -1,4 +1,37 @@
+
 section:nth-of-type(2) .container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+section:nth-of-type(2) .container .circle {
+  position: absolute;
+  width: 100%;
+}
+
+section:nth-of-type(2) .container .circle:nth-of-type(1) {
+  bottom: -50%;
+  right: 50%;
+}
+
+section:nth-of-type(2) .container .circle:nth-of-type(2) {
+  bottom: -50%;
+  right: -50%;
+}
+
+section:nth-of-type(2) .container .circle:nth-of-type(3) {
+  top: -50%;
+  right: -50%;
+}
+
+
+section:nth-of-type(2) .container .circle:nth-of-type(4) {
+  top: -50%;
+  right: 50%;
+}
+
+/* section:nth-of-type(2) .container {
   overflow: hidden;
   height: 201px;
   white-space: nowrap;
@@ -27,5 +60,4 @@ section:nth-of-type(2) .container .circle:nth-of-type(4) {
   top: 6.5rem;
   right: 43.9rem;
 }
-
-
+*/

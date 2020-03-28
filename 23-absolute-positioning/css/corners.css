@@ -1,4 +1,35 @@
-section:nth-of-type(1) .example {
+section:nth-of-type(1) .container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+section:nth-of-type(1) .container svg {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+}
+
+section:nth-of-type(1) .container .circle {
+bottom: 0%;
+right: 0%;
+}
+
+section:nth-of-type(1) .container .rect {
+  top: 0%;
+  left: 0%;
+}
+
+  section:nth-of-type(1) .container .pipe {
+    bottom: 0%;
+}
+
+section:nth-of-type(1) .container .bar {
+  right: 0;
+}
+
+
+/*section:nth-of-type(1) .example {
   max-width: 200px;
   min-height: 210px;
 }
@@ -31,4 +62,5 @@ section:nth-of-type(1) .bar {
   bottom: 10.5%;
   right: 72%;
 }
+*/
 
