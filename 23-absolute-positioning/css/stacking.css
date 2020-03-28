@@ -1,0 +1,52 @@
+/*
+section:nth-of-type(4) container svg {
+  position: absolute;
+}
+
+section:nth-of-type(4) .container .circle {
+  position: absolute;
+  width: 25%;
+  height: 31%;
+  left: 1rem;
+  z-index: 2;
+}
+
+
+section:nth-of-type(4) .container .pipe {
+  position: absolute;
+  width: 25%;
+  height: 32%;
+  top: 142.5rem;
+  left: 1rem;
+  z-index: 4;
+}
+*/
+section:nth-of-type(4) .container {
+  position: relative;
+  max-width: 200px;
+  max-height: 12.5rem;
+}
+section:nth-of-type(4) .container .circle {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+section:nth-of-type(4) .container .rect {
+  position: relative;
+  width: 100%;
+  top: -12.8rem;
+  z-index: 1;
+}
+
+section:nth-of-type(4) .container .pipe {
+  position: relative;
+  bottom: 25.6rem;
+  z-index: 4;
+}
+
+section:nth-of-type(4) .container .bar {
+  position: relative;
+  bottom: 39rem;
+  z-index: 3;
+}
