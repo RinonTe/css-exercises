@@ -1,4 +1,82 @@
+.dropdown{
+position: relative;
+}
 
+.dropdown [type="checkbox"] {
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+}
+
+.dropdown_trigger {
+background-color: rgba(0, 0, 255, 0.479);
+color: #fff;
+font-size: 1rem;
+position: relative;
+text-transform: uppercase;
+padding-inline-end: 3rem;
+display: inline-block;
+font-weight: 700;
+border-radius: 0.25rem;
+}
+
+.dropdown_trigger::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  top: 50%;
+  margin-top: -0.3rem;
+  right: 1rem;
+}
+
+.dropdown_contents ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown_contents a {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  color: black;
+  transition: all .3s;
+
+}
+.dropdown_contents a:hover {
+  background-color: rgba(0, 0, 255, 0.479);
+  color: #fff;
+}
+/* Create default state: closed/ unchecked*/
+.dropdown_trigger::before {
+  transition: border .3s;
+  border-color: currentColor transparent transparent transparent;
+  border-style: solid;
+  border-width:  0.6rem 0.5rem 0 0.5rem;
+}
+
+.dropdown_contents {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+
+  }
+
+ /*Alternative state:checked/ unchecked*/
+[type="checkbox"]:checked ~ .dropdown_trigger::before {
+  border-color: transparent transparent currentColor transparent;
+  border-style: solid;
+  border-width: 0  0.5rem 0.6rem 0.5rem;
+}
+
+[type="checkbox"]:checked ~ .dropdown_contents {
+  display: block;
+}
+
+/*
 .dropdown_contents a {
   color: black;
   text-decoration: none;
@@ -24,3 +102,5 @@ color:  rgba(51, 128, 0, 0.849);
   visibility: visible;
   display: block;
 }
+/
+*/
