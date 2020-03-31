@@ -1,0 +1,24 @@
+/*
+  FLOATS
+1-The default values:
+. float: none
+. clear: none
+
+2.The possible values for 'clear property': left, right, none, both
+
+3. The rule associated with the floats: the element that we firstly float will be displayed first, and the second will be secondly displayed.
+
+4. Actually, we can float other elements besides images but the element will be removed from the normal flow of the page, though still remaining a part of the flow.
+
+5. We can create columns with floats and it is the easiest way to do so by setting flout right and left with each one's width.
+
+  BFC(Block formatting context)
+1. A Block Formatting Context is part of the visual CSS rendering of a web page in which block boxes are laid out. A block formatting context (BFC) will lay child elements out according to block layout rules
+
+2.  We can 'clear' a float by creating a block formatting context on the parent, this is achieved by putting a certain set of properties on the container. These properties are:
+clear:both;
+the pseudo-elements :after
+overflow:hidden
+3. I will not forget it tomorrow but I need to understand it more in order to always remember it.
+
+*/

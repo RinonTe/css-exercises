@@ -13,9 +13,11 @@
   margin: 0;
   position: relative;
 }
+
 .progress_indicator li {
 counter-increment: step_number;
 }
+
 .progress_indicator li > * {
   display: block;
   padding: 1rem;
@@ -40,10 +42,12 @@ counter-increment: step_number;
 .progress_indicator a{
 text-decoration: none;
 }
+
 .progress_indicator a::before {
   background-color: green;
   color: #fff;
   }
+  
 /* current steps */
 
 .progress_indicator b::before {
