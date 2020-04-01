@@ -1,0 +1,17 @@
+section:first-of-type .container {
+  overflow: hidden;
+}
+section:first-of-type .container img[src="images/inspector_gadget.jpg"] {
+  float: left;
+margin-block-end: 2rem;
+margin-inline-end: 2rem;
+}
+
+section:first-of-type .container img[src="images/doctor_claw.png"] {
+  float: right;
+  margin-block-end: 2rem;
+  margin-inline-start: 2rem;
+}
+section:first-of-type .container img[src="images/doctor_claw.png"] + p {
+clear: left;
+}
