@@ -14,6 +14,7 @@ section:nth-of-type(2) .container p {
   display: table;
 }
 */
+
 section:nth-of-type(2) .container div {
   display: inline-block;
 }
@@ -28,5 +29,5 @@ section:nth-of-type(2) .container div:nth-of-type(2) img[src="images/doctor_claw
 }
 
 section:nth-of-type(2) .container p {
-  display: table;
+  display: flex;
 }

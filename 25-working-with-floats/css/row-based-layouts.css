@@ -1,4 +1,4 @@
-
+/*
 section:nth-of-type(4) .example .form_toolbar {
   float: right;
   margin-block-start: -4rem;
@@ -34,4 +34,38 @@ section:nth-of-type(4) .form_row label[for="field_end_date"]{
 section:nth-of-type(4) form .form_actions {
   margin-inline-start: 10rem;
 }
+*/
+section:nth-of-type(4) .example header {
+  float: left;
+  margin: 0;
 
+}
+
+.form_row {
+  clear: left;
+}
+section:nth-of-type(4) .example .form_toolbar {
+  float: right;
+  line-height: 4rem;
+}
+
+section:nth-of-type(4) .example label {
+  float: left;
+  line-height: 39px;
+  width: 9rem;
+  text-align: right;
+}
+
+section:nth-of-type(4) form input {
+  margin-block-end: 1rem;
+  margin-inline-start: 1rem;
+
+  }
+
+section:nth-of-type(4) form .field {
+  margin-inline-start: 9rem;
+}
+
+section:nth-of-type(4) form .form_actions {
+  margin-inline-start: 10rem;
+}

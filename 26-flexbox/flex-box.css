@@ -1,0 +1,33 @@
+/*1. Flex is a shorthand property so it means: flex-grow: 0; flex-shrink: 1; flex-basis: auto;
+
+2. `flex-wrap` or `flex-flow` values that we need before we can use `align-content:
+.flex-wrap: wrap;
+.flex-flow: row wrap;
+
+3. Align-content controls how the flex-items are aligned in a multi-line flex container and it does't possess the 'baseline' value but Align-items just defines how flex-items are laid out on the cross axis.
+
+4. The The flex-item's Alingn-self property overrides the other
+
+5. other commonly-used box model property similar to `flex-basis`might be 'border'
+
+6.There are two ways to change the ordering of flex items within a flex container. One is done on each flex item by using the `order` property. The other can change the whole order of the flex items at the container level. We can also use the 'reverse' value with the 'flex-direction' property.
+
+7. The possible ways to achieve some space between each of three flex items in a flex column:
+a.The value center places flex items in the center of the line, with equal amounts of empty space between the line's start edge and the first item.
+b.The value space-between displays equal spacing between flex items.
+c.For equal spacing around every flex item, use the value space-around.
+d.A margin set to auto will absorb any extra space around a flex item and push other flex items into different positions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
