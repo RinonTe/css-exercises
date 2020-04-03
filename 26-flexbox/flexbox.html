@@ -10,30 +10,35 @@
       border: 1px solid;
       background-color: rgba(0, 255, 255, 0.322);
       font-weight: 700;
-      display: flex;
-      flex-wrap: nowrap;
+      display: inline-flex;
       flex-direction: row-reverse;
       align-items: center;
-      flex-flow: column;
+      flex-flow: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-content: flex-end;
     }
+      .container .example:not(:first-child):not(:last-child) {
+      border: 1px solid;
+      width: 3rem;
+      height: 3rem;
+      padding: 1rem;
+      background-color: azure;
+     order: 1;
+     flex-grow: 2;
+      margin: 1px;
+      align-self: flex-start;
+      }
+      .container .example:not(:nth-of-type(2)):not(:nth-of-type(3)){
+        border: 1px solid;
+        padding: 1rem;
+        width: 3rem;
+        height: 3rem;
+        order: 2;
+        flex-shrink: 3;
+        background-color: blueviolet;
 
-.container .example:not(:first-child):not(:last-child) {
-border: 1px solid;
-width: 3rem;
-height: 3rem;
-padding: 1rem;
-background-color: azure;
-
-
-}
-.container .example:not(:nth-of-type(2)):not(:nth-of-type(3)){
-  border: 1px solid;
-  padding: 1rem;
-  width: 3rem;
-  height: 3rem;
-  background-color: blueviolet;
-
-}
+      }
   </style>
 </head>
 <body>
@@ -46,6 +51,18 @@ background-color: azure;
     </div>
     <div class="example">
       <div>Item3</div>
+    </div>
+    <div class="example">
+     <div> I have a book</div>
+    </div>
+    <div class="example">
+      <div>Item5</div>
+    </div>
+    <div class="example">
+      <div>Item6</div>
+    </div>
+    <div class="example">
+      <div>Item7</div>
     </div>
     <div class="example">
      <div> I have a book</div>

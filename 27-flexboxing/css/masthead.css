@@ -9,16 +9,26 @@ main > header {
     50% 50%,
     50% 50%;
   color: #fff;
+  margin: 0;
+  margin-block-start: -3rem;
   padding: 4rem 0;
   box-sizing: border-box;
   min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+
+
 }
 
 main > header > h2 {
-  font-size: 4rem;
-  margin: 0;
+font-size: 4rem;
+align-self: center;
+margin: 0;
+
 }
 
 main > header > p {
   margin: 0;
+   align-self: center;
+
 }

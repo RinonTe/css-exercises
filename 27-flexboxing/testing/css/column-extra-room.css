@@ -1,0 +1,15 @@
+section:nth-of-type(4) .example .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+section:nth-of-type(4) .example .container .rect ,
+section:nth-of-type(4) .example .container .pipe {
+   align-self: center;
+
+}
+section:nth-of-type(4) .example .container .circle {
+order: 2;
+}
