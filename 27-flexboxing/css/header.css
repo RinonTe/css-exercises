@@ -2,13 +2,14 @@ body > header {
   color: #fff;
   display: flex;
   flex-direction: row;
-
+  position: relative;
 }
 
 body > header h1 {
   margin: 0;
   font-size: 2rem;
-
+  position: relative;
+  z-index: 2;
 }
 
 body > header a {
