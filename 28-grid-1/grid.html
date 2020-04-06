@@ -6,20 +6,17 @@
   <style>
 .container {
   display: grid;
-
+  grid-template-columns: (4,1fr);
+  grid-template-rows: repeat(3,125px);
   grid-gap: 10px;
   gap: 10px;
   grid-template-areas:
-         "h1 header house-2"
-         "h1 house-1 house-2"
-         "h1 footer house-2";
-
+    "h1 header house-2 house-2"
+    "h1 house-1 house-2 house-2"
+    "h1 house-3 house-3 house-3"
 }
 
-
-
  .container div {
-
   line-height: 3rem;
   text-align: center;
 }
@@ -29,11 +26,14 @@
   font-size: 2rem;
   font-family: fantasy;
   background-color: chocolate;
+  grid-area: 3/1/3/2;
+  z-index: 2;
 }
 .h1 {
 grid-area: h1;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 1.5rem;
+
 background-color: aquamarine;
 text-transform: uppercase;
 }
@@ -51,6 +51,14 @@ text-transform: uppercase;
   font-style: italic;
   font-family: monospace;
   background-color: cadetblue;
+}
+.house-3 {
+  grid-area: house-3;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: monospace;
+  background-color:red;
+  z-index: 2;
 }
 .footer {
   grid-area: footer;
@@ -73,6 +81,8 @@ text-transform: uppercase;
   <div class="house-1"> Trance
   </div>
   <div class="house-2"> Lose his mind
+  </div>
+  <div class="house-3"> Set in stone
   </div>
   </div>
   <div class="footer"> Enjoy reading!
