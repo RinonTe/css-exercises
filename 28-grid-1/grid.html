@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning grid</title>
+  <style>
+.container {
+  display: grid;
+
+  grid-gap: 10px;
+  gap: 10px;
+  grid-template-areas:
+         "h1 header house-2"
+         "h1 house-1 house-2"
+         "h1 footer house-2";
+
+}
+
+
+
+ .container div {
+
+  line-height: 3rem;
+  text-align: center;
+}
+
+.header {
+  grid-area: header;
+  font-size: 2rem;
+  font-family: fantasy;
+  background-color: chocolate;
+}
+.h1 {
+grid-area: h1;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.5rem;
+background-color: aquamarine;
+text-transform: uppercase;
+}
+
+.house-1 {
+  grid-area: house-1;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: monospace;
+  background-color: blue;
+}
+.house-2 {
+  grid-area: house-2;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: monospace;
+  background-color: cadetblue;
+}
+.footer {
+  grid-area: footer;
+  background-color: rgba(255, 0, 0, 0.5);
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: chartreuse;
+}
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header"> A foolish son
+  </div>
+  <div class="h1"> an adventure story
+  </div>
+  <div class="house-1"> Trance
+  </div>
+  <div class="house-2"> Lose his mind
+  </div>
+  </div>
+  <div class="footer"> Enjoy reading!
+  </div>
+</div>
+</body>
+</html>

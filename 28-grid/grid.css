@@ -1,0 +1,10 @@
+/*
+1. Grids have 5 columns by by default
+2. Grid css is a two-dimensional system meaning that it can handle both row and column at the same time, unlike Flex just one-dimensional system.
+3. I would use fles-box rather than grid when I am working on just one-dimensional layout, for example either columns or rows because that saves more time.
+4. The same to grid, if working in both rows and columns, I'd use grid because I can save my time by using it.
+5. The concise way to write out the following: `grid-template-columns: 10rem 10rem 10rem 10rem;`
+grid-template-columns: repeat (4, 10rem);
+
+6. In order to specify the minimum height of the row but still allow the row to increase in height if its content is too tall, we can set its height and use max-content as a value of the grid -template-row.
+*/
