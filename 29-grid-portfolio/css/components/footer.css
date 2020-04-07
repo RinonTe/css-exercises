@@ -3,8 +3,13 @@ body > footer {
   font-size: 0.75rem;
   border-block-start: 1px solid #4d4d4d;
   padding-block-start: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
 }
 
 body > footer a {
   color: #fff;
+}
+
+body > footer p {
 }
