@@ -3,8 +3,4 @@
 @import "components/headings.css";
 @import "components/gallery.css";
 @import "components/footer.css";
-
-main {
-  display: grid;
-  grid-template-rows: 2rf;
-}
+ 

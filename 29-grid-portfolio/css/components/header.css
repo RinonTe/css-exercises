@@ -1,8 +1,9 @@
 body > header {
   display: grid;
   grid-template-columns: repeat(6,145px);
-  grid-column-gap: 19px;
-  gap: 19px;
+  grid-column-gap: 15px;
+  gap: 15px;
+  align-items: end;
 }
 
 body > header h1 {
@@ -48,8 +49,8 @@ body > header li {
 body > header ul {
   display: grid;
   grid-template-columns: repeat(5,145px);
-  grid-column-gap: 19px;
-  gap: 19px;
-  align-items: end;
+  grid-column-gap: 15px;
+  gap: 15px;
+
 }
 

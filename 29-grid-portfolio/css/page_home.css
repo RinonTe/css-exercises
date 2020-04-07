@@ -3,10 +3,5 @@
 @import "components/gallery.css";
 @import "components/footer.css";
 
-main ul {
-  display: grid;
-  grid-template-columns: 145px 145px 145px 145px 145px 145px;
-  grid-column-gap: 19px;
-  gap: 19px;
-}
+ 
 
