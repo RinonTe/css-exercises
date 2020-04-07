@@ -7,8 +7,35 @@ body > footer {
   grid-template-columns: repeat(5,1fr);
 }
 
+body > footer p {
+  margin: 0;
+}
+
 body > footer a {
   color: #fff;
+  text-decoration: none;
+}
+
+body > footer a:hover {
+  color: #fff18f;
+}
+
+body > footer p:last-child {
+
+}
+
+body > footer p:last-child a {
+  position: relative;
+  padding-inline-start: 1rem;
+}
+
+body > footer p:last-child a::before {
+  content: '💧';
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5rem;
+  left: 0;
+  filter: grayscale(1);
 }
 
 body > footer p {
