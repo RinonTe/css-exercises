@@ -1,8 +1,8 @@
 body > header {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-column-gap: 15px;
-  gap: 15px;
+  grid-template-columns: repeat(6,145px);
+  grid-column-gap: 19px;
+  gap: 19px;
 }
 
 body > header h1 {
@@ -24,6 +24,11 @@ body > header a:hover {
 
 body > header nav {
   font-size: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6,154px);
+  column-gap: 15px;
+  grid-column-gap: 15px;
+
 }
 
 body > header h1 {
@@ -45,14 +50,6 @@ body > header ul {
   grid-template-columns: repeat(5,145px);
   grid-column-gap: 19px;
   gap: 19px;
-
+  align-items: end;
 }
 
-body > header > h1 {
-  grid-area: 3/1/1/1;
-}
-
-body > header > nav {
-  grid-area: 2/2/3/3;
-  margin-bottom: 0.85rem;
-}

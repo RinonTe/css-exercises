@@ -7,6 +7,9 @@
   margin: 0;
   margin-block-start: 0.75rem;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6,145px);
+  column-gap: 15px;
 }
 
 /*

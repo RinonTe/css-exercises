@@ -5,6 +5,7 @@ body > footer {
   padding-block-start: 0.75rem;
   display: grid;
   grid-template-columns: repeat(5,1fr);
+
 }
 
 body > footer p {
@@ -21,7 +22,7 @@ body > footer a:hover {
 }
 
 body > footer p:last-child {
-
+grid-area: 1/6/1/6;
 }
 
 body > footer p:last-child a {
@@ -37,6 +38,4 @@ body > footer p:last-child a::before {
   left: 0;
   filter: grayscale(1);
 }
-
-body > footer p {
-}
+ 
