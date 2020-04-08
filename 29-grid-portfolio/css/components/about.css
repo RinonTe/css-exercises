@@ -1,21 +1,26 @@
 .about {
 display: grid;
 grid-template-columns: repeat(6,145px);
-grid-template-rows: repeat(2,1fr);
+grid-template-rows:  repeat(2,1fr);
 column-gap: 15px;
+margin-block-start: 1rem;
 }
 
 .about_header h2 {
 grid-area: 1/1/1/1;
-margin-block-start: 0.5rem;
 
 }
 
 img {
   grid-area: 1/2/1/4;
-  margin-block-start: 1.5rem;
+
 }
 
 .about_description {
   grid-area: 1/4/1/7;
+
+}
+
+.about_description p {
+  margin: 0;
 }

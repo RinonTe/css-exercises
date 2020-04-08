@@ -14,13 +14,15 @@ grid-template-areas:
 .post header {
 grid-area: header;
 margin-block-start: 2rem;
-
+margin-block-end: 1rem;
 }
 
 .post_content {
 grid-area: post_content;
 }
- 
+.post_content p{
+  margin-block-start: 0;
+}
 /* This element doubles as the post meta block. Links, metadata, etc */
 .post footer {
   font-size: 0.75rem;
