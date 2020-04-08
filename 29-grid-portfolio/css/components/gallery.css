@@ -9,6 +9,8 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(6,145px);
+  grid-template-rows: repeat(3,fr);
+  row-gap: 30px;
   column-gap: 15px;
   margin-bottom: 1rem;
 }
@@ -37,6 +39,7 @@
 
 .gallery figure {
  
+
 }
 
 .gallery img {
