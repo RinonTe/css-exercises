@@ -11,6 +11,11 @@ grid-template-areas:
   color: #f2f2f2;
 }
 
+.post:not(:last-child) footer,
+.post:not(:last-child) .post_content {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .post header {
 grid-area: header;
 margin-block-start: 2rem;
@@ -73,3 +78,30 @@ grid-area: post_content;
   height: 1px;
   background-color: #4d4d4d;
 }
+
+article:nth-of-type(1) .post_content p img{
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-block-end: 2rem;
+  }
+
+
+
+  article:nth-of-type(2) .post_content p img{
+    float: left;
+    width: 470px;
+    height: auto;
+    margin-block-end: 2rem;
+    }
+
+article:nth-of-type(3) .post_content {
+      display: grid;
+      grid-template-columns: repeat(5,145px);
+      grid-template-rows: repeat(2,1fr);
+      column-gap: 15px;
+
+    }
+
+
+
