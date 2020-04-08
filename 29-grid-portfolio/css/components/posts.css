@@ -25,9 +25,7 @@ margin-block-end: 1rem;
 .post_content {
 grid-area: post_content;
 }
-.post_content p{
-  margin-block-start: 0;
-}
+
 /* This element doubles as the post meta block. Links, metadata, etc */
 .post footer {
   font-size: 0.75rem;
@@ -79,26 +77,19 @@ grid-area: post_content;
   background-color: #4d4d4d;
 }
 
-article:nth-of-type(1) .post_content p img{
-  float: right;
-  width: 470px;
-  height: auto;
-  margin-block-end: 2rem;
-  }
-
-
 article:nth-of-type(1) .post_content p {
-  margin-inline-start: 15px;
+  margin-block-start: 0;
 }
 
+article:nth-of-type(2n) .image_half {
+  float: left;
+  margin-inline-end: 15px;
+}
 
-  article:nth-of-type(2) .post_content p img{
-    float: left;
-    width: 470px;
-    height: auto;
-    margin-block-end: 2rem;
-    }
-
+  article:nth-of-type(2n+1) .image_half {
+    float: right;
+    margin-inline-start: 15px;
+ }
 
 
 
