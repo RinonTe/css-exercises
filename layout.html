@@ -7,6 +7,48 @@
   <title>Document</title>
   <style>
 
+:root {
+        --unit-measure: 20;
+        --counter: item;
+        --colour:  rgb(63, 63, 63);
+        --number: 0;
+}
+#dry .grid {
+  display: inline-grid;
+  grid-template-columns: repeat(var(--number), var(--unit-measure));
+}
+
+#dry a {
+  display: block;
+  position: relative;
+  width: calc(var(--unit-measure) * 1px);
+  height: calc(var(--unit-measure) * 1px);
+  background-color: var(--colour);
+  transition: background-color 1s;
+  counter-increment: var(--counter);
+}
+
+#dry a:hover {
+  background-color: rgb(var(--number), var(--number),var(--number));
+}
+
+#dry a::before {
+  content: counter(var(--counter));
+  position: absolute;
+  top: var(--number);
+  left: var(--number);
+  width: var(--unit-measure);
+  text-align: center;
+  font-size: calc(var(--unit-measure) / 2 * 1px);
+  line-height: calc(var(--unit-measure) * 1px);
+  font-weight: 700;
+  color: var(--colour);
+  transition: color 1s;
+}
+
+#dry a:hover::before {
+  color: rgb(255, 255, 255);
+}
     :root {
       --columns: 4;
       --cell-color: lightpink;

@@ -1,11 +1,11 @@
 /*
-1. We use the prefix '2 dashes' to define CSS custom properties.
-2. We cannot use any 'spaces' when writing CSS custom properties
+1. We use the prefix '2 dashes, hyphen, alphabetic' to define CSS custom properties.
+2. We cannot use any 'spaces, period' when writing CSS custom properties
 3. Possible values that we can assign to a new custom properties: colors, string, layout values, even an expression.
 4. It is useful to use ':root' when we want the value-set to the custom properties in it to be applied to the whole document or to be used over and over again. It is not useful if each property of each element in the document contains different value.
 5. After we've defined a new Custom Property, we recall or use that Custom Property by using the 'var()' fonction and the name of the custom property inside of the brackets.
-6. A few ways to override a custom property:
-7. Custom properties are useful because they help us avoid repetition in our code and to avoid typing-mistake when using the the same property as well as value. This helps us to avoid copying and pasting code, and it simplifies development and refactoring.
-8. The only aspect (or part) of CSS syntax that we can use Custom Properties for is in the 'var' notation and we must need the :root selector with its syntax.
+6. A few ways to override a custom property: Changing the values, @media, calc,...
+7. Custom properties are useful because they help us avoid repetition in our code and to avoid typing-mistake when using the the same property as well as value, 1 point of control. This helps us to avoid copying and pasting code, and it simplifies development and refactoring.
+8. The only aspect (or part) of CSS syntax that we can use Custom Properties for is in the declaration block.
 
 */
