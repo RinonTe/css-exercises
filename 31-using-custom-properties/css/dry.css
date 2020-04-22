@@ -43,3 +43,55 @@ transition: color 1s;
 #dry a:hover::before {
 color: rgb(255, 255, 255);
 }
+/*
+
+.row:nth-of-type(2) a{
+  --row-numbers: 2;
+  --column-numbers: 2;
+  }
+
+
+.row:nth-of-type(3) a {
+  --row-numbers: 3;
+  --column-numbers: 1;
+  }
+
+
+  .row:nth-of-type(4) a {
+    --row-numbers: 4;
+    --column-numbers: 1;
+    }
+
+    .row:nth-of-type(5) a {
+      --row-numbers: 5;
+      --column-numbers: 1;
+      }
+
+
+      .row:nth-of-type(6) a {
+        --row-numbers: 6;
+        --column-numbers: 1;
+        }
+
+        .row:nth-of-type(7) a {
+          --row-numbers: 7;
+          --column-numbers: 1;
+          }
+
+
+          .row:nth-of-type(8) a {
+            --row-numbers: 8;
+            --column-numbers: 1;
+            }
+
+            .row:nth-of-type(9) a {
+              --row-numbers: 9;
+              --column-numbers: 1;
+              }
+
+
+              .row:nth-of-type(10) a {
+                --row-numbers: 10;
+                --column-numbers: 1;
+                }
+*/

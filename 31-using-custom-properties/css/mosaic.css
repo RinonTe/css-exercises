@@ -1,25 +1,98 @@
-
-/*#c_and_i .row a                 { background-color: hsla(200deg, 100%, 50%, 0.1);}
+/*
+#c_and_i .row a                 { background-color: hsla(200deg, 100%, 50%, 0.1);}
 #c_and_i .row a + a             { background-color: hsla(200deg, 100%, 50%, 0.2);}
 #c_and_i .row a + a + a         { background-color: hsla(200deg, 100%, 50%, 0.3);}
 #c_and_i .row a + a + a + a     { background-color: hsla(200deg, 100%, 50%, 0.4);}
-#c_and_i .row a + a + a + a + a { background-color: hsla(200deg, 100%, 50%, 0.5);}
-*/
+#c_and_i .row a + a + a + a + a { background-color: hsla(200deg, 100%, 50%, 0.5);}*/
 /*
   … etc …
 
   This would get crazy if I had to write out each and every anchor within each row, setting the unique `hsla()` per anchor.
 */
-:root {
 
-  --hue: 36;
-  --opacity:0.1;
-  --saturation:100%;
-  --lightness:50%;
+
+:root {
+  --hue: 36deg;
+  --opacity: 0.1;
+  --saturation: 100%;
+  --lightness: 50%;
 }
 
 a {
-  --background-color: hsla(calc(var(--hue) * 36), 100%, 50%, calc(var(--opacity) * 1);
+  --hue-value:calc(var(--hue) * var(--hue-multiplier));
+  --opacity-value: calc(var(--opacity) * var(--opacity-multiplier));
 }
 
+.row a {
+  background-color: hsla(
+    var(--hue-value),
+    var(--saturation),
+    var(--lightness),
+    var(--opacity-value)
+    );
+}
+
+.row a:nth-of-type(1){
+--opacity-multiplier: 1;
+}
+
+.row a:nth-of-type(2){
+  --opacity-multiplier: 2;
+}
+  .row a:nth-of-type(3){
+  --opacity-multiplier: 3;
+}
+.row a:nth-of-type(4){
+  --opacity-multiplier: 4;
+}
+.row a:nth-of-type(5){
+  --opacity-multiplier: 5;
+}
+.row a:nth-of-type(6){
+  --opacity-multiplier: 6;
+}
+.row a:nth-of-type(7){
+  --opacity-multiplier: 7;
+}
+.row a:nth-of-type(8){
+  --opacity-multiplier: 8;
+}
+.row a:nth-of-type(9){
+  --opacity-multiplier: 9;
+}
+.row a:nth-of-type(10){
+  --opacity-multiplier: 10;
+}
+
+.row:nth-of-type(1) {
+--hue-multiplier: 1;
+}
+.row:nth-of-type(2) {
+  --hue-multiplier:2;
+  }
+.row:nth-of-type(3) {
+  --hue-multiplier: 3;
+}
+.row:nth-of-type(4) {
+  --hue-multiplier: 4;
+}
+.row:nth-of-type(5) {
+  --hue-multiplier: 5;
+}
+.row:nth-of-type(6) {
+  --hue-multiplier: 6;
+}
+.row:nth-of-type(7) {
+  --hue-multiplier: 7;
+}
+
+.row:nth-of-type(8) {
+  --hue-multiplier: 8;
+}
+.row:nth-of-type(9) {
+  --hue-multiplier: 9;
+}
+.row:nth-of-type(10) {
+  --hue-multiplier: 10;
+}
 
