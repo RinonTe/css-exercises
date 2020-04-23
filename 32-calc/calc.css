@@ -1,0 +1,10 @@
+/*
+1. The calc function can support all mathematical expressions. It can be used with length, angle, number, percentage, integer, frequency
+2. It really depends on the answer that we are looking for, but the rule is the division, multiplication and substruction should always go first and followed by parentheses. In this case, to reach the result 20, it should be calc((2 + 3) * 4).
+3. It is interesting that we can use calc function to convert a type of unit to another type of unit.
+4. If we want to convert a unitless number to a unit value, we need to multiply the number to 1 with the unit that we want to convert it to.
+5. The 'plus' and the 'minus' operators need spaces around them because at the time we do not add space between them, the value in the function will be parsed as a value followed by a negative or a positive value and that is an ivalid expression.
+6. We can convert a positive value into a negative value by multiplying with a negative value.
+7. It is possible to use calc function with colour. What we need to do is figuring out the lumunosity. If the luminosity is less than 30%, the color will be white and if the the luminosity is +30%, it will be black. So to get different color, we need to combine different luminosities.
+
+/*/
