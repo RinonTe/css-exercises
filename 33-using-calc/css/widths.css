@@ -1,3 +1,8 @@
+
+
 .container blockquote {
-  width: 100%;
+width: 100%;/* if the browser doesn't support the calc function */
+box-sizing: border-box;
+width: calc(100% - (2 * ((2 * 1rem) + 4rem)));
 }
+
