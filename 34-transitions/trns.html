@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <style>
+
+   .ball {
+     border-radius: 50%;
+     width: 42px;
+     padding: 2rem;
+     color: royalblue;
+     text-align: center;
+     background-color: gray;
+     transition-property: all;
+   }
+   .ball:hover {
+    background-color: red;
+    transition: ease-in;
+    transition-duration: 0.5s;
+    color: indigo;
+   }
+     .house {
+       position: relative;
+       top: -21%;
+       left: 50%;
+       border: 1px solid;
+       width: 150px;
+       height: 130px;
+       text-align: center ;
+       margin-top: 4rem;
+       line-height: 7rem;
+       color: greenyellow;
+       background-color: hotpink;
+     }
+
+     button {
+       background-color: royalblue;
+     }
+button + .ball {
+  background-color: red;
+  transition: ease-in;
+  transition-duration: 0.5s;
+  color: indigo;
+}
+ </style>
+</head>
+<body>
+<div class="ball"> my ball</div>
+<div class="house"> Prisca's house</div>
+<button> click here</button>
+
+</body>
+</html>
+

@@ -1,3 +1,4 @@
+/*
 # CSS exercise 34: Transitions
 
 Transitions offer us the simplest form of animation in CSS.
@@ -12,10 +13,15 @@ Transitions take care of all the intermediate stages between those two states.
 OK, so let's hunker down and learn more about transitions!
 
 1. The `transition` property is a 'shorthand property'. What other properties are included in this shorthand property?
-*These are the properties: transition-property, transition-duration, transition-timing-function, and transition-delay.*
-1. What is the difference between a timing function, delay, and duration?
-*duration sets the length of time a transition animation should take to complete, and function is how the values are calculated for CSS properties being affected by a transition effect, and delay specifies the duration to wait before starting the transition*
-1. What CSS properties are *animatable* using transitions?
+
+These are the properties: transition-property, transition-duration, transition-timing-function, and transition-delay.
+
+2. What is the difference between a timing function, delay, and duration?
+
+duration sets the length of time a transition animation should take to complete, and function is how the values are calculated for CSS properties being affected by a transition effect, and delay specifies the duration to wait before starting the transition.
+
+3. What CSS properties are *animatable* using transitions?
+(I copied them from MDN because I could type all of them but that will take forever.)
 -moz-outline-radius
 -moz-outline-radius-bottomleft
 -moz-outline-radius-bottomright
@@ -209,11 +215,28 @@ vertical-align
 visibility
 width
 word-spacing
-z-index*
+z-index
 
-1. Can we select more than one property to transition at a time? If so, how?
-1. How can we set or define the desired transition state, using CSS?
-1. Do we need transitions? What makes them useful?
-1. At what point can transitions become a problem?
-1. Transitions don't work reliably with the `auto` keyword being one of the end states. Why is that?
-1. How can we stagger transitions? i.e. make a number of child elements all start at different times?
+4. Can we select more than one property to transition at a time? If so, how?
+
+We can select more than one property by using the transition property followed by the properties that we want to transition.
+
+5. How can we set or define the desired transition state, using CSS?
+
+6. Do we need transitions? What makes them useful?
+
+We do need transition. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. When we want to animate things. It is a good use for that.
+
+7. At what point can transitions become a problem?
+
+It is a problem at the point of loading the page because it must take  quite long to load the page from the server.
+
+8. Transitions don't work reliably with the `auto` keyword being one of the end states. Why is that?
+
+It is  because "auto" is not a value. We can't transition from a value to an ambiguous setting. It is sait that not every CSS property can be transitioned, and the basic rule is that we can only transition through absolute values.
+
+9. How can we stagger transitions? i.e. make a number of child elements all start at different times?
+
+We can stagger transitions by applying different delay to different properties or elements.
+
+*/
