@@ -25,7 +25,7 @@ OK, so let's hunker down and learn more about transitions!
 -webkit-text-fill-color
 -webkit-text-stroke
 -webkit-text-stroke-color
-all
+all.
 backdrop-filter
 background
 background-color
