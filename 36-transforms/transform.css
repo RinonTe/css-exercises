@@ -1,0 +1,28 @@
+/*
+1. Name the functions we can use in a `transform`'s value?
+
+scale(), rotate(), translate(), scale(), perspective(), metrix(), scew().
+
+2. Why do we have to use separate functions, in order, and as values, e.g. `transform: scale(0.5) rotate(45deg);` when we could have had separate properties like: `transform-scale: 0.5;`, or `transform-rotate: 45deg`?
+
+The last property will override the first written transform property.
+
+3. Often, we want to move the central pin or axis of the transform away from its default position. What property do we use to set that?
+
+We could use transform-translate property in this case.
+
+4. Why is it preferable to use `transform: translate()` rather than `position` and its associated properties?
+First, the browser support; position is CSS2 property whereas transform is CSS3 property.
+Secondly, the transform property will use hardware acceleration where possible so using translate() over position will see performance benefits if any animations or transitions are also being used on the element.
+
+5. When an element is translated / transformed, what happens to the flow of the document? Therefore, what layout method is `transform` similar to?
+The element still maintain their origin spaces, which is similar to position relative.
+
+6. What problems can you run in to when overriding a `transform` in a more specific selector?
+
+7. If we want to go 3D, we need to use another property to set the view over the scene. What is that property?
+We need the transform-style property in the parent element.
+
+8. We can control what the transform uses in its calculations in terms of the box model. What property can we use to adjust this?
+Transform-translate property can adjust this.
+*/
