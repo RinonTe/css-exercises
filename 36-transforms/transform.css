@@ -9,7 +9,7 @@ The last property will override the first written transform property.
 
 3. Often, we want to move the central pin or axis of the transform away from its default position. What property do we use to set that?
 
-We could use transform-translate property in this case.
+We could use transform-origin property in this case.
 
 4. Why is it preferable to use `transform: translate()` rather than `position` and its associated properties?
 First, the browser support; position is CSS2 property whereas transform is CSS3 property.
@@ -24,5 +24,5 @@ The element still maintain their origin spaces, which is similar to position rel
 We need the transform-style property in the parent element.
 
 8. We can control what the transform uses in its calculations in terms of the box model. What property can we use to adjust this?
-Transform-translate property can adjust this.
+transform-box property can adjust this.
 */
