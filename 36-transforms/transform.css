@@ -24,5 +24,5 @@ The element still maintain their origin spaces, which is similar to position rel
 We need the transform-style property in the parent element.
 
 8. We can control what the transform uses in its calculations in terms of the box model. What property can we use to adjust this?
-transform-box property can adjust this.
+transform-box property can adjust this. The default value is boeder-box
 */

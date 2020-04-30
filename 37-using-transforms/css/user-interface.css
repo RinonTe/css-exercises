@@ -60,5 +60,8 @@
 }
 
 .user-interface :checked ~ nav {
-
+/* when using the scale */
+transform: scale(0);
+/* when using translateX */
+transform: translateX(100%);
 }

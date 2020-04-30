@@ -10,21 +10,21 @@
       position: relative;
     }
 
-    div::before, div::after {
+    div:nth-of-type(1):before, div::after {
     content: "";
     background-color: #ccc;
     display: block;
     position: absolute;
     }
 
-div::before {
+div:nth-of-type(1):before {
   left: 50%;
   width: 1px;
   top: 0;
   bottom: 0;
 }
 
-div::after {
+div:nth-of-type(1):after {
   top: 50%;
   height: 1px;
   left: 0;
@@ -39,12 +39,56 @@ div::after {
       height: 10vh;
       background: rgba(0, 132, 255, 0.4);
     }
+    .cube {
+      position: relative;
+    }
+    figure {
+      height: 95px;
+      position: absolute;
+      width: 95px;
+    }
+    .top {
+      background: rgba(208, 255, 0, 0.466);
+      transform: rotate(-45deg) skew(15deg, 15deg);
+
+    }
+    .left {
+      background: rgba(255, 166, 0, 0.233);
+      transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+
+    }
+    .right {
+      background: rgba(255, 208, 0, 0.356);
+      transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+    }
+    .top2 {
+      background: rgba(208, 255, 0, 0.466);
+      transform: rotate(-15deg) skew(-15deg, 20deg) translate(135%, 42%);
+
+    }
+    .left2 {
+      background: rgba(255, 166, 0, 0.233);
+      transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+
+    }
+    .right2 {
+      background: rgba(255, 208, 0, 0.356);
+      transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+    }
   </style>
 </head>
 <body>
   <div>
     <a href="#">
     </a>
+  </div>
+  <div class="cube">
+    <figure class="top">  drag</figure>
+    <figure class="left"> weed</figure>
+    <figure class="right"> packets</figure>
+    <figure class="top2">  crazy</figure>
+    <figure class="left2"> wise</figure>
+    <figure class="right3"> bobies</figure>
   </div>
 </body>
 </html>
