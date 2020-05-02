@@ -43,8 +43,8 @@
 #earth-system {
   width: var(--earth-system-size);
   height: var(--earth-system-size);
-  transform: translate(78%, -50%);
-  transform-origin: left;
+  transform: translate(-50%, -50%) translate(128%, -10%);
+
 }
 
 #earth {
@@ -53,7 +53,7 @@
   background-color: navy;
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
-  transform: translate(-6px, -10px);
+  transform: translate(-50%, -50%) translate(4px, -1px);
 }
 
 #luna {
@@ -62,7 +62,7 @@
   height: var(--luna-size);
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
-  transform:translate(56px, -6px);
+  transform:translate(-50%, -50%) translate(61px, -6px);
 }
 
 .scene:hover #solar-system,
@@ -77,14 +77,16 @@
 }
 
 .scene:hover #earth-system {
-
+transform-origin: ;
+transform: translate(-50%, -50%) translate(128%, -10%) rotate(12turn);
 }
 
 .scene:hover #earth {
-
-
+  transform-origin: center;
+  transform: translate(-50%, -50%) translate(4px, -1px) rotate(12turn);
 }
 
 .scene:hover #luna {
-
+  transform-origin: center;
+  transform: translate(-50%, 50%) translate(61px, -6px) rotate(12turn);
 }
