@@ -77,16 +77,15 @@
 }
 
 .scene:hover #earth-system {
-transform-origin: ;
 transform: translate(-50%, -50%) translate(128%, -10%) rotate(12turn);
 }
 
 .scene:hover #earth {
   transform-origin: center;
-  transform: translate(-50%, -50%) translate(4px, -1px) rotate(12turn);
+  transform: translate(-50%, -50%) translate(4px, -1px) rotate(-12turn);
 }
 
 .scene:hover #luna {
   transform-origin: center;
-  transform: translate(-50%, 50%) translate(61px, -6px) rotate(12turn);
+  /*transform: translate(-50%, 50%) translate(61px, -6px) rotate(12turn);*/
 }

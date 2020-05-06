@@ -1,6 +1,7 @@
 /*
 1. Keyframe Animation setup needs some unique code, what does it start with?
-It starts with 'from'.
+It starts with @keyframes.
+
 2. What makes the keyframes code different to the rest of CSS?
 We can create whatever  name of the code we want to use.
 
@@ -9,16 +10,14 @@ We need to envoke the name of the keyframe that has been created before in the s
 
 4. Keyframe animations have other keywords that aren't available in `transitions`, what are these keywords?
 The keywords that are not available with transitions:
-  -animation-play-state
-  -animation-fill-mode
-  -animation-direction
-  -animation-iteration-count
+  reverse, alternate, infinite, paused, running, both,...
 
-5. How many properties can we animate  animation-play-state
+5. How many properties can we animate;
   animation-fill-mode
   animation-direction
   animation-iteration-count
   animation-play-state
+
 6. How many properties can we animate at once?
   We can animate seeral properties at once but each animaton needs to be defined in the keyframes code.
 

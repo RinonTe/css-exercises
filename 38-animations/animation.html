@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+<style>
+  div div {
+    width: 250px;
+    height: 200px;
+    background-color: #5f9ea0b3;
+
+    border-color: rgb(188, 165, 143);
+    text-align: center;
+    line-height: 1.5;
+    width: 400px;
+  border-style: double;
+  border-width: 2rem;
+  animation-name: fordiv;
+  animation-duration: 5s;
+  animation-iteration-count: ;
+  animation-play-state: running;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+
+  }
+
+@keyframes lorem {
+0% {
+    color: blue;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+
+  40% {
+    color: red;
+     font-weight: 200;
+  }
+100% {
+  color: blue;
+  font-weight: bolder;
+  margin-block-start: 4rem;
+  margin-left: 2rem;
+  width: fit-content;
+}
+
+}
+@keyframes fordiv {
+0%, 100% {
+  transform: translate(50%);
+  background: linear-gradient(to right, rgba(38, 255, 0, 0.4)0% 25%, rgba(0, 217, 255, 0.3)25% 50%, rgba(180, 144, 238, 0.6)50% 100%);
+  border-radius: 30%;
+}
+30% {
+  transform: translate(20%, 30%) rotateX(45%);
+  background: linear-gradient(to bottom, rgba(255, 0, 179, 0.7)0% 50%, rgb(255, 255, 255)50% 75%, rgba(0, 100, 0, 0.2)75% 100% );
+  border-radius: 43%;
+}
+
+75% {
+  background-color: aqua;
+  transform: translateY(50%) rotateX(0deg);
+  border-radius: 50%;
+}
+90% {
+  transform: translateX(200%);
+  background-color: rgba(0, 0, 0, 0.698);
+}
+}
+p {
+  color: red;
+  font-size: 3rem;
+  animation-name: lorem;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1>Learning animation</h1>
+  </header>
+<div>
+  <div>
+    <p>My happiness is to stand by u</p>
+  </div>
+</div>
+
+</body>
+</html>
+

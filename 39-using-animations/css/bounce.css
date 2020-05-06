@@ -1,11 +1,32 @@
 :root {
   --ball-diameter: 100px;
 }
+@keyframes bounce {
+0% {
+top: 0%;
+transform: scaley(1);
+}
+
+60% {
+top: 50%;
+transform: scaley(1);
+}
+90% {
+  transform: scale(1, 0.9);
+}
+
+100% {
+  top: 82%;
+  transform: scale(1, 0.9);
+}
+}
 
 #court {
   border-block-end: peru solid 20px;
   position: relative;
   height: calc(var(--ball-diameter) * 5);
+  background-repeat: no-repeat;;
+
 }
 
 #ball {
@@ -22,5 +43,10 @@
   background-position:
     50% -25px,
     50% 50%;
-  background-repeat: no-repeat;;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
 }
