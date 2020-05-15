@@ -1,0 +1,25 @@
+/*
+1-:focus pseudo-class represents an element (such as a form input) that has received focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's "tab" key.
+
+2-:focus-within CSS pseudo-class indicates an element that has received focus or contains an element that has received focus. It represents an element that is itself matched by the :focus pseudo-class or has a descendant that is matched by :focus.
+
+3- :visited represent the links that users have already visited. It is a restrictive selector because the styles that we can use with it is so limited.
+
+4- :active starts when users clic or tap the link or buttom. It represents an element (such as a button, alink) that is being activated by the user.
+
+5- :target pseudo-class represents an element that is being activated by the user.
+
+6. :disabled pseudo-class selector any disabled element. An element is disabled if it can not be activated or accept focus.
+
+7. :empty pseudo-class represents any element that has no children. Children can be either element nodes or text. Comments, processing instructions, and CSS content do not affect whether an element is considered empty.
+
+8. :not() CSS pseudo-class represents elements that do not match a list of selectors.
+
+9. :matches() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list. This is useful for writing large selectors in a more compact form.
+
+10.:::first-letter CSS pseudo-element applies styles to the first letter of the first line of a block-level element. It cannot work before other content like images or online tables.
+
+11- The @supports CSS at-rule or also called feature query lets you specify declarations that depend on a browser's support for one or more specific CSS features.
+
+12- The attr() CSS function is used to retrieve the value of an attribute of the selected element and use it in the stylesheet. It can also be used on pseudo-elements, in which case the value of the attribute on the pseudo-element's originating element is returned.
+*/
