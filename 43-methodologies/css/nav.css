@@ -2,6 +2,7 @@
   --primary-colour: #00c;
   --secondary-colour: #555;
   --inverse-colour: #fff;
+  --hover-color: #ccf;
   --container-max-width: 40rem;
   --nav-font-size: 1rem;
   --nav-tab-vertical-padding: 0.75rem;
@@ -12,12 +13,85 @@
   --nav-active-tab-vertical-padding: 1rem;
   --nav-active-tab-horizontal-padding: 2rem;
   --article-padding: 1rem;
+
 }
 
 html {
   font-size: 16px;
+
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  max-width: var(--container-max-width);
+
+
 }
+.page-navigations {
+  font-size: var(--nav-font-size);
+  color: var(--inverse-colour);
+}
+
+.page-navigations__list-of-tabs {
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 0;
+  margin-block-end: -0.5rem;
+
+}
+
+.page-navigations__list-of-tabs__tab{
+  list-style: none;
+  margin-inline-end: var(--nav-tab-gap);
+  padding-inline-start: var(--nav-tab-horizontal-padding);
+  padding-inline-end: var(--nav-tab-horizontal-padding);
+  padding-block-start: var(--nav-tab-vertical-padding);
+  padding-block-end: var(--nav-tab-vertical-padding);
+  color: var(--inverse-colour);
+  background-color: var(--secondary-colour);
+  border-radius: var(--nav-tab-radius-amount);
+  flex-grow: 1;
+  text-align: center;
+}
+.page-navigations__list-of-tabs__tab__link {
+  text-decoration: none;
+  color: var(--inverse-colour);
+}
+.page-navigations__list-of-tabs__tab:hover {
+  color: var(--hover-color);
+  padding-block-start: calc(var(--nav-tab-vertical-padding) * 1.5);
+  padding-block-end: calc(var(--nav-tab-vertical-padding) * 1.5);
+  padding-inline-start: calc(var(--nav-tab-horizontal-padding) * 1.5);
+  padding-block-end: calc(var(--nav-tab-horizontal-padding) * 1.5);
+
+}
+.page-navigations__list-of-tabs__tab:last-of-type {
+  margin-inline-end: 0;
+}
+.page-navigations__list-of-tabs__tab--active {
+  list-style: none;
+  background-color: var(--primary-colour);
+  border-radius: var(--nav-tab-radius-amount);
+  margin-inline-end: var(--nav-tab-gap);
+  padding-inline-start: var(--nav-active-tab-horizontal-padding);
+  padding-inline-end: var(--nav-active-tab-horizontal-padding);
+  padding-block-start: var(--nav-active-tab-vertical-padding);
+  padding-block-end: var(--nav-active-tab-vertical-padding);
+  font-size: var(--nav-active-font-size);
+  margin-block-start: -0.5rem;
+}
+
+.pricing-plans {
+  position: relative;
+  padding: var(--article-padding);
+  background-color: var(--primary-colour);
+  z-index: 1;
+  color: var(--inverse-colour);
+}
+.pricing-plans__heading__instruction {
+  margin-block-start: 0;
+}
+.pricing-plans__heading__information{
+  margin-block-end: 0;
+}
+
