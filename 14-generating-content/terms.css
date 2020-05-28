@@ -40,8 +40,6 @@ section > h3::before {
 
 }
 
-
-
 section > h4::before {
   counter-increment: clause;
   content:counter(major-clause) "." counter(clause) ".";
@@ -49,15 +47,12 @@ section > h4::before {
 
 }
 
-
-
 section ol::before {
   counter-increment: list;
   content: counter(major-clause) "." counter(clause) "." counter(list,lower-alpha) ".";
   font-weight: bold;
 
 }
-
 
   ol li {
   list-style-type: none;
@@ -67,9 +62,9 @@ section ol > li::before {
 
   counter-increment: nested-list;
   content: counter(major-clause) "."
-   counter(clause) "."
-   counter(list,lower-alpha)"."
-   counter(nested-list,lower-roman) ".";
+  counter(clause) "."
+  counter(list,lower-alpha)"."
+  counter(nested-list,lower-roman) ".";
   font-weight: bold;
   padding-inline-start: 8px;
 }
