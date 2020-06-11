@@ -11,18 +11,36 @@
   background-color: inherit;
   padding: 1rem;
 }
-
+div div .centred {
+margin-inline-start: 1rem;
+margin-inline-end: 1rem;
+}
 /* 4 */
-[data-example="4"] {
+[data-example="4"] .centred{
+display: flex;
+justify-content: center;
+ position: relative;
+ top: 2.5rem;
 
 }
 
 /* 5 */
-[data-example="5"] {
 
+[data-example="5"] .centred{
+transform: translateY(50%);
+text-align: center;
 }
 
-/* 6 */
-[data-example="6"] {
-
+[data-example="5"] .centred p{
+  display: inline-block;
 }
+
+[data-example="6"] .centred{
+  margin-block-start: 2.5rem;
+}
+
+[data-example="6"] .centred p{
+  align-self: center;
+  max-width: max-content;
+
+  }
