@@ -39,24 +39,31 @@
 div div article{
   border: solid 1rem;
   }
-  div div header,
-  div div div {
-  margin-block-end: 1rem;
 
-  }
 .example {
   padding: 0;
 }
 /* 1 */
+[data-example="1"] header,
+[data-example="1"] div {
+  margin-block-end: 1rem;
+}
+
 [data-example="1"] header,
 [data-example="1"] div,
 [data-example="1"] footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 /* 2 */
+[data-example="2"] article {
+  display: grid;
+  row-gap: 1rem;
+}
+
 [data-example="2"] h2,
 [data-example="2"] p {
   display: inline-block;
@@ -66,8 +73,11 @@ div div article{
 [data-example="3"] article {
 
 }
+[data-example="3"] header,
+[data-example="3"] div {
+  margin-block-end: 1rem;
+}
 [data-example="3"] h2,
 [data-example="3"] p {
-    display: inline-table;
-    max-width: max-content;
-}
+   display: inline-table;
+ }
