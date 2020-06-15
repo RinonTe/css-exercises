@@ -1,102 +1,19 @@
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=
-  , initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-
-:root {
-        --unit-measure: 20;
-        --counter: item;
-        --colour:  rgb(63, 63, 63);
-        --number: 0;
-}
-#dry .grid {
-  display: inline-grid;
-  grid-template-columns: repeat(var(--number), var(--unit-measure));
-}
-
-#dry a {
-  display: block;
-  position: relative;
-  width: calc(var(--unit-measure) * 1px);
-  height: calc(var(--unit-measure) * 1px);
-  background-color: var(--colour);
-  transition: background-color 1s;
-  counter-increment: var(--counter);
-}
-
-#dry a:hover {
-  background-color: rgb(var(--number), var(--number),var(--number));
-}
-
-#dry a::before {
-  content: counter(var(--counter));
-  position: absolute;
-  top: var(--number);
-  left: var(--number);
-  width: var(--unit-measure);
-  text-align: center;
-  font-size: calc(var(--unit-measure) / 2 * 1px);
-  line-height: calc(var(--unit-measure) * 1px);
-  font-weight: 700;
-  color: var(--colour);
-  transition: color 1s;
-}
-
-#dry a:hover::before {
-  color: rgb(255, 255, 255);
-}
-    :root {
-      --columns: 4;
-      --cell-color: lightpink;
-      --base-unit: calc(var(--columns) / 2 * 1rem);
-    }
-
-ul {
-  display: grid;
-  grid-template-columns: repeat(var(--columns),1fr);
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  gap: var(--base-unit);
-  font-size: var(--base-unit);
-  line-height: 1;
-}
-li {
-  background-color:  var(--cell-color);
-}
-
-@media(min-width: 624px) {
-  :root {
-    --colomns: 4;
-  }
-  }
-  @media(min-width: 1024px) {
-  :root {
-    --colomns: 6;
-  }
-}
-  </style>
 </head>
-
 <body>
-<ul>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-  <li>Cell</li>
-</ul>
-</body>
+<header>
+<input type="checkbox"><
+<label for=""></label>
+</header>
+<main>
 
+</main>
+<footer>
+
+</footer>
+</body>
 </html>
